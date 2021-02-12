@@ -4,7 +4,7 @@ wanted properites in this file */
 
 /*  back ground image properites*/
 body {
-	background-image: url('pictures/ZooPic.jpg');
+	background-image: url('pictures/bambooImage.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -20,6 +20,13 @@ body {
   color: MediumSeaGreen;
 }
 
+#headerAnimal {
+  background-color: #666;
+  padding: 35px;
+  text-align: center;
+  font-size: 35px;
+  color: MediumSeaGreen;
+}
 /*  welcome to the Hattiesburg Zoo front size*/
 #homepage_title {
 	font-size: 75px;
@@ -92,27 +99,39 @@ body {
 	z-index: 10;
 }
 
-/* aniamal info properites */
-#animal_info {
-	background-color: MediumSeaGreen;
-	font-family: Sans-serif, Arial;
-	font-size: 15px;
-	color: LightGrey;
-	text-transform: lowercase;
-	font-style: oblique;
-	height: 100px;
-	border-style: groove;
+#boxed {
+	height: 600px;
 	border-color: LightGrey;
 	position: relative;
-	min-height: 400px;
-	max-height: 400px;
-	width: 400px;
-	min-width: 500px;
-	max-width: 200px;
+	min-height: 600px;
+	max-height: 800px;
+	width: 800px;
+	min-width: 800px;
+	max-width: 800px;
 	padding: 30px;
 	margin: 20px auto;
 	border-radius: 25px;
-	text-align: center;
+	border-width: solid;
+	top: 10px;
+	left: 0px;
+	z-index: 10;
+}
+
+/* aniamal picture Giraffe */
+#animal_info {
+	background-image: url('pictures/GraffiPic.jpg');
+	background-repeat: no-repeat;
+	height: 600px;
+	border-color: LightGrey;
+	position: relative;
+	min-height: 600px;
+	max-height: 800px;
+	width: 800px;
+	min-width: 800px;
+	max-width: 800px;
+	padding: 30px;
+	margin: 20px auto;
+	border-radius: 25px;
 	border-width: solid;
 	top: 10px;
 	left: 0px;
